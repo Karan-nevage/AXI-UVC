@@ -1,9 +1,17 @@
 # AXI UVM Verification Testbench
 
-![AXI Testbench Architecture](https://github.com/Karan-nevage/AXI-UVC/blob/main/Images/AXI_TB_ARCHITECTURE.png)
 
 
-## Project Overview
+![1.0](https://img.shields.io/badge/Version-1.0-violet)
+![SystemVerilog](https://img.shields.io/badge/HDL-SystemVerilog-blueviolet)
+![UVM](https://img.shields.io/badge/Verification%20Methodology-UVM-green)
+![VCS](https://img.shields.io/badge/Simulator-Synopsys%20VCS-red)
+![Verdi](https://img.shields.io/badge/Debugging-Verdi-red)
+![GitHub last commit](https://img.shields.io/github/last-commit/Karan-nevage/AXI-UVC)
+![GitHub repo size](https://img.shields.io/github/repo-size/Karan-nevage/AXI-UVC)
+![GitHub contributors](https://img.shields.io/github/contributors/Karan-nevage/AXI-UVC)
+
+
 This repository contains a UVM (Universal Verification Methodology)-based testbench for verifying an AXI (Advanced eXtensible Interface) protocol design. The testbench is designed to validate the functionality of an AXI master and slave interface, ensuring compliance with the AMBA AXI4 specification. It includes modular components for drivers, monitors, responders, sequencers, coverage, and a scoreboard, making it scalable for various test scenarios. The project utilizes Synopsys VCS for simulation and Synopsys Verdi for tracing, debugging, and waveform analysis.
 
 ## Features
@@ -64,6 +72,7 @@ The testbench utilizes various AXI signals to facilitate communication between t
 - `sim/`: Simulation scripts and file lists (e.g., `run.sh` for VCS).
 - `src/`: UVM package library files.
 
+![AXI Testbench Architecture](https://github.com/Karan-nevage/AXI-UVC/blob/main/Images/AXI_TB_ARCHITECTURE.png)
 
 
 ### Steps to Run Simulation
